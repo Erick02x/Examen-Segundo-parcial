@@ -140,7 +140,7 @@ namespace Vista
             if (inserto)
             {
                 IdentidadTextBox.Focus();
-                MessageBox.Show("Factura registrada exitosamente");
+                MessageBox.Show("Ticket registrado exitosamente");
                 printPreviewDialog1.Document = printDocument1;
                 printPreviewDialog1.ShowDialog();
                 LimpiarControles();

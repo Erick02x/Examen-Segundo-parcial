@@ -65,6 +65,9 @@
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
             this.GuardarButton = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -290,7 +293,7 @@
             // 
             this.DetalleDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DetalleDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DetalleDataGridView.Location = new System.Drawing.Point(12, 358);
+            this.DetalleDataGridView.Location = new System.Drawing.Point(17, 358);
             this.DetalleDataGridView.Name = "DetalleDataGridView";
             this.DetalleDataGridView.Size = new System.Drawing.Size(1066, 202);
             this.DetalleDataGridView.TabIndex = 4;
@@ -396,12 +399,36 @@
             this.GuardarButton.UseVisualStyleBackColor = true;
             this.GuardarButton.Click += new System.EventHandler(this.GuardarButton_Click);
             // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(941, 573);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(142, 22);
+            this.textBox3.TabIndex = 22;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(941, 600);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(142, 22);
+            this.textBox4.TabIndex = 23;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(941, 657);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(142, 22);
+            this.textBox5.TabIndex = 24;
+            // 
             // TicketForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.ClientSize = new System.Drawing.Size(1109, 693);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.CancelarButton);
             this.Controls.Add(this.GuardarButton);
             this.Controls.Add(this.TotalTextBox);
@@ -472,5 +499,8 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox ExistenciaTextBox;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
     }
 }
